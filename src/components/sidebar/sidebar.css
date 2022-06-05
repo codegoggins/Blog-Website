@@ -35,11 +35,15 @@
 
 .sidebarItem > p{
     padding: 30px;
+    font-family: 'Josefin Sans', sans-serif;
+    line-height: 1.2;
 }
 
 .sidebarList{
     list-style: none;
     margin-bottom: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+
 }
 
 .sidebarListItem{
