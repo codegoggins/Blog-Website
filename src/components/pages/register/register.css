@@ -1,0 +1,51 @@
+.register{
+    height: calc(100vh - 50px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: linear-gradient(rgba(255,255,255,0.3)
+    ,rgba(255,255,255,0.3)), url('https://images.unsplash.com/photo-1556740714-a8395b3bf30f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80');
+    background-size: cover;
+    align-items: center;
+    color: white;
+}
+
+.registerTitle{
+    font-size: 50px;
+}
+
+.registerForm{
+margin-top: 20px;
+display: flex;
+flex-direction: column;
+}
+
+.registerForm > label{
+margin-top: 20px;
+font-size: 25px;
+width: 200px;
+}
+
+.registerForm > input{
+font-size: 18px;
+width: 200px;
+background-color: white;
+padding: 10px;
+border: none;
+border-radius: 10px;
+}
+.registerForm > input:focus{
+outline: none;
+}
+
+.registerForm > button{
+    margin-top: 15px;
+font-size: 20px;
+width: 220px;
+background-color: rgb(11, 163, 163);
+color: aliceblue;
+border: none;
+border-radius: 10px;
+padding: 8px 15px;
+cursor: pointer;
+}
