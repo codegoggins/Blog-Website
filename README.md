@@ -2,6 +2,9 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+The website is hosted here :
+https://elaborate-naiad-b49065.netlify.app
+
 ## Available Scripts
 
 In the project directory, you can run:
